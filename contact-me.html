@@ -16,10 +16,27 @@
 	<hr />
 
 	<form action="mailto:mariaviani98@gmail" method="POST" enctype="text/plain">
-		<label for="">Full Name</label>
+		<p>
+			<label for="">Full Name</label>
 			<input name="Name" type="text"><br /><br />
-		<label for="">Email</label>
+		</p>
+		
+		<p>
+			<label for="">Email</label>
 			<input name="Email" type="email" /><br /><br />
+		</p>
+				
+		<p>
+			<label>Tanggal Lahir:</label>
+            		<input type="date" name="tanggal" />
+		</p>
+		
+		<p>
+		    <label>Jenis kelamin:</label>
+		    <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+		    <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+		</p>
+		
 		<label for="">Message</label>
 			<textarea name="message" id="" cols="30" rows="10"></textarea><br /><br />
 		<input type="submit" />
