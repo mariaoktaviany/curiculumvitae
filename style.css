@@ -1,0 +1,17 @@
+﻿body{
+    background: url(bg2.jpg);
+}
+
+a{
+    color:#e11d74;
+}
+
+h1{
+    color: #3b5249;
+    font-size: 70px;
+    font-style: italic;
+}
+
+hr{
+    color: #ffd571;
+}
